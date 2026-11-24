@@ -1,0 +1,10 @@
+/target/
+/dist/
+/.local/
+*.log
+*.exe
+*.dll
+*.pdb
+.env*
+.DS_Store
+Thumbs.db

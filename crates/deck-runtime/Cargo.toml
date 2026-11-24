@@ -1,0 +1,15 @@
+[package]
+name = "deck-runtime"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+[dependencies]
+deck-domain = { path = "../deck-domain" }
+deck-storage = { path = "../deck-storage" }
+deck-platform = { path = "../deck-platform" }
+anyhow.workspace = true
+serde_json.workspace = true
+crossbeam-channel.workspace = true
+rfd = { version = "0.15", default-features = false, features = ["xdg-portal", "async-std"] }
+image = { version = "0.25", default-features = false, features = ["png", "jpeg", "gif"] }

@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-24",
+  "version": "3.0.0-alpha.1",
+  "language": {
+    "frontend": "Rust native egui",
+    "backend": "Rust in-process services"
+  },
+  "rust_toolchain": "1.100.0",
+  "tests_passed": 26,
+  "tests_failed": 0,
+  "format": "passed",
+  "clippy": "passed; warnings denied",
+  "native_source_check": "passed",
+  "windows_cross_check": "passed",
+  "windows_execution": "not run",
+  "windows_release_binary": "not produced; Linux cross-link import-library failure",
+  "ui_verification": "actual egui headless widget rendering and synthetic pointer interaction",
+  "hardware": "not run",
+  "actual_ha": "not run; local mock passed",
+  "remote_repository": "not created; authentication blocked",
+  "remote_push": "not performed",
+  "ci": "authored; not remotely run"
+}
