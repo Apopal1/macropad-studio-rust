@@ -61,6 +61,6 @@ HA tokens are DPAPI-encrypted for the current Windows user. On Linux they are se
 - [Migration](docs/MIGRATION.md), [verification](docs/VERIFICATION.md), [performance](docs/PERFORMANCE.md)
 - [Windows acceptance](docs/WINDOWS_ACCEPTANCE.md)
 
-Private repository: https://github.com/Apopal1/macropad-studio-rust . Source publication is in progress. The GitHub connector has no installed repository access and local CLI is unauthenticated, so the authenticated GitHub web interface is being used. The original local Git history is retained.
+Private repository: https://github.com/Apopal1/macropad-studio-rust . Source, roadmap, task checklist and CI workflow are published on `main`. See [GitHub handoff](docs/GITHUB.md) for publication evidence and the relationship between the original local history and the GitHub bootstrap commits. Initial Windows/Linux CI is running; target-machine acceptance remains pending.
 
 No open-source license grant is made by this baseline. Third-party font terms are included under `assets/`. Dependency licenses remain owned by their respective authors.

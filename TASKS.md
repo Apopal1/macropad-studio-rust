@@ -6,7 +6,7 @@ Status: `[ ]` pending, `[x]` completed. Each task must have evidence in the work
 - [x] F01 Create isolated v3 folder and roadmap before implementation.
 - [x] F02 Inventory legacy features and schemas.
 - [x] F03 Record architecture, UX and security decisions.
-- [ ] F04 Create private GitHub repository and initial roadmap commit.
+- [x] F04 Create private GitHub repository and initial roadmap commit.
 - [x] F05 Install/verify Rust toolchain and dependencies.
 
 ## Rust vertical slice
@@ -42,7 +42,9 @@ Status: `[ ]` pending, `[x]` completed. Each task must have evidence in the work
 ## Delivery
 - [x] Q01 Rust and UI automated checks.
 - [x] Q02 Author CI and development/Windows instructions (remote CI run awaits Q03).
-- [ ] Q03 Push verified source and progress to new GitHub repository.
+- [x] Q03 Push verified source and progress to new GitHub repository.
+
+- [ ] Q04 Verify the first GitHub Windows/Linux CI run and release artifacts.
 
 ## Next small tasks, in order
 - [ ] N03 Tray icon/menu; preserve macros when editor hides.
@@ -53,4 +55,4 @@ Status: `[ ]` pending, `[x]` completed. Each task must have evidence in the work
 - [ ] P02 Compare locked egui baseline with current supported release before feature expansion.
 - [ ] A01 Define three-potentiometer input protocol and Windows per-app audio routing.
 
-GitHub creation/push is blocked by authentication. Local implementation is not the same as physical acceptance.
+Private repository and source publication are verified. Initial GitHub CI is running; local implementation is not the same as physical acceptance.

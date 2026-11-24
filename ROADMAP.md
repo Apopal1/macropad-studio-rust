@@ -31,4 +31,4 @@ A source baseline can be delivered before full hardware parity only with every u
 
 ## Repository
 Private repository created: https://github.com/Apopal1/macropad-studio-rust
-Source publication and remote verification are in progress.
+Source published and visually verified on `main` (source commit `0f5c1cbb56afb46d6eb6b4a46fb3152a23f0eef5`; CI workflow commit `30e4881be8bf617aeb88ab7ae8a7d2c20d69855e`). Initial automated Windows/Linux checks are running.
