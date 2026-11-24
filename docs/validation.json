@@ -17,7 +17,9 @@
   "ui_verification": "actual egui headless widget rendering and synthetic pointer interaction",
   "hardware": "not run",
   "actual_ha": "not run; local mock passed",
-  "remote_repository": "not created; authentication blocked",
-  "remote_push": "not performed",
-  "ci": "authored; not remotely run"
+  "remote_repository": "created; private: Apopal1/macropad-studio-rust",
+  "remote_push": "source published through authenticated GitHub web commits",
+  "ci": "running: https://github.com/Apopal1/macropad-studio-rust/actions/runs/45412907930",
+  "remote_source_commit": "0f5c1cbb56afb46d6eb6b4a46fb3152a23f0eef5",
+  "remote_workflow_commit": "30e4881be8bf617aeb88ab7ae8a7d2c20d69855e"
 }
